@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+}
+
+.board {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.column {
+    background-color:#ebecf0 ;
+    border-radius: 8px;
+    width: 300px;
+    padding: 15px;
+    flex-shrink: 0;
+}
+.column h2 {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+.task-card {
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 8px;
+    box-shadow: 0 1px 0 rgba(9,30,66,.25);
+
+}
